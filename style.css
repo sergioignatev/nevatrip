@@ -62,6 +62,10 @@ body {
 .rectangle .tickets {
   margin-left: 20px;
   margin-top: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(75, 75, 75);
 }
 .rectangle .time {
   display: flex;
@@ -70,6 +74,10 @@ body {
   margin-top: 9px;
 }
 .rectangle .twelve {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(52, 52, 52);
   width: 63px;
   height: 24px;
   border-radius: 11px;
@@ -95,6 +103,10 @@ body {
   font-size: 10px;
 }
 .rectangle .bottom .right {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(64, 64, 64);
   border: 1px solid rgb(203, 165, 0);
   background: rgb(254, 215, 75);
   width: 165px;
