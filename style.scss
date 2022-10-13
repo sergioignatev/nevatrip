@@ -1,0 +1,75 @@
+body{font-family: "Open Sans"; margin: 0;}
+.rectangle{margin-top: 27px;
+margin-left:17px;
+margin-right:17px;
+border-left:1px solid grey;
+border-right:1px solid grey;
+border-bottom:1px solid grey;
+border-radius: 16px;
+overflow:hidden;
+.img{position: relative;}
+.new{  position: absolute;
+    top: 41px;
+   background:rgb(254 215 75);
+   width:99px;
+   height:35px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+    
+  }
+
+
+img{width:100%;}
+.clock{display:flex;margin-top: 16px;margin-left: 12px;color:rgb(158 158 158);
+line-height: 20px;font-size: 12px;align-items: center;
+}
+.action{margin-left: 12px;
+    margin-right: 12px;}
+    h2{font-weight: 600;
+    font-size: 12px;
+line-height: 22px;
+color:rgb(64 64 64)}
+.li{width:16px;
+height:12px;}
+.content{display:flex;
+    align-items: center;
+}
+.tickets{margin-left: 20px;margin-top: 9px;}
+.time{display:flex;justify-content: space-between;margin-left: 45px;margin-top: 9px;}
+.twelve{width:63px;
+height:24px;
+border-radius: 11px;
+background: rgb(217, 232, 255);
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bottom{display: flex;margin-top: 38px;
+    justify-content:space-between;margin-bottom:20px;
+    .nine{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+p{font-size: 10px;}
+.right{
+    border:1px solid rgb(203 165 0);
+    background: rgb(254 215 75);
+    width:165px;
+    height:44px;
+    border-radius: 20px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+}
