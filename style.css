@@ -54,6 +54,7 @@ body {
 .rectangle .li {
   width: 16px;
   height: 12px;
+  margin-top: 10px;
 }
 .rectangle .content {
   display: flex;
