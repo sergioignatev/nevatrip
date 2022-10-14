@@ -9,9 +9,10 @@
 <body>
 <div class="rectangle">
     <div class="img">
-            <img src="mobile-img.png">
+            <img class="main-img" src="mobile-img.png">
             <div class="new">НОВИНКА</div>
     </div>
+    <div class="border">
     <div  class="clock" >
               <div><img style="width:16px;height:16px;display:flex;align-self: center;" src="clock.png"></div>
                <div style="margin-left:9px;">2 часа</div>
@@ -53,11 +54,79 @@
 
              </div>
         </div>
-               
+             </div>  
+
+
+</div>
+
+<div class="rectangle">
+    <div class="img">
+            <img class="main-img" src="mobile-img.png">
+            <div class="new-top">НОВИНКА</div>
+    </div>
+    <div class="border">
+    <div  class="clock" >
+              <div><img style="width:16px;height:16px;display:flex;align-self: center;" src="clock.png"></div>
+               <div style="margin-left:9px;">2 часа</div>
+    </div>
+        <div class="action">
+           <h2> АКЦИЯ - Обзорная экскурсия по рекам и каналам  с остановками Hop on Hop Off 2019</h2>
+           <div class="content">
+               <img class="li" src="галка.png">
+                <div class="tickets">Билет на целый день</div>
+           </div>
+           <div class="content">
+               <img class="li" src="галка.png">
+                <div class="tickets">Неограниченное число катаний</div>
+            </div>
+            <div class="content">
+                <img class="li" src="галка.png">
+                <div class="tickets">6 остановок у главных достопримечательностей</div>
+           </div>
+           <div class="content">
+                <img class="li" src="галка.png">
+                <div class="tickets">Ближайший рейс сегодня</div>
+             </div>
+
+               <div class="time">
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+             </div>
+             <div class="bottom">
+                <div  class="left">
+                    <div class="nine">2900₽</div>
+                    <p>1200р на причале
+                    </p>
+                </div>
+                
+                
+                
+                <div class="right-two">Подробнее</div>
+
+             </div>
+        </div>
+    </div>
 
 
 </div>
 
 
 </body>
+<script>
+    setInterval(img,1)
+    function img(){
+    let w =window.innerWidth;
+    if(w>=1000){
+        document.getElementsByClassName('main-img')[0].src="bridge.png";
+        document.getElementsByClassName('main-img')[1].src="palace.png";
+    }
+    else{
+        document.getElementsByClassName('main-img')[0].src="mobile-img.png";
+        document.getElementsByClassName('main-img')[1].src="mobile-img.png";
+
+    }
+    }
+</script>
 </html>
