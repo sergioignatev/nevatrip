@@ -55,6 +55,7 @@ height:12px;margin-top: 10px;}
     color:rgb(52 52 52);
     width:63px;
 height:24px;
+margin-left: 2px;
 border-radius: 11px;
 background: rgb(217, 232, 255);
 
@@ -118,6 +119,9 @@ p{font-size: 10px;}
 }
 
 }
+
+#piano{display:none;}
+
 @media (min-width:690px) {
     body{display:flex;
       .rectangle{margin-left: 17px;
@@ -153,7 +157,9 @@ line-height: 34px;
 
 }
 @media (min-width:1000px) {
- body{   .rectangle{
+ body{ 
+    #piano{display:flex;}
+    .rectangle{
       
         margin-left: 50px;
         margin-right: 17px;

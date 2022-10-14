@@ -115,7 +115,74 @@
 
 
 </div>
+<div id="piano" class="rectangle">
+    <div class="img">
+            <img class="main-img" src="piano.png">
+            
+    </div>
+    <div class="border">
+    <div  class="clock" >
+              <div><img style="width:16px;height:16px;display:flex;align-self: center;" src="clock.png"></div>
+               <div style="margin-left:9px;">2 часа</div>
+    </div>
+        <div class="action">
+           <h2> АКЦИЯ - Обзорная экскурсия по рекам и каналам  с остановками Hop on Hop Off 2019</h2>
+           <div class="content">
+               <img class="li" src="галка.png">
+                <div class="tickets">Билет на целый день</div>
+           </div>
+           <div class="content">
+               <img class="li" src="галка.png">
+                <div class="tickets">Неограниченное число катаний</div>
+            </div>
+            <div class="content">
+                <img class="li" src="галка.png">
+                <div class="tickets">6 остановок у главных достопримечательностей</div>
+           </div>
+           <div class="content">
+                <img class="li" src="галка.png">
+                <div class="tickets">Ближайший рейс сегодня
 
+                    
+                </div>
+             </div>
+
+               <div style="flex-direction: column;" class="time">
+                <div style="display:flex;" class="twelve-cont">
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      <div onclick="showhide()" class="twelve">Еще..</div>
+                </div>
+                      
+                      <div style="display:none;margin-top: 10px;" id="showhide">
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div> 
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      <div class="twelve">12:00</div>
+                      </div>
+
+
+             </div>
+             <div class="bottom">
+                <div class="left">
+                    <div class="nine">900 ₽</div>
+                    <p>1200 p на причале </p>
+                </div>
+                
+                
+                
+                <div class="right">Подробнее</div>
+
+             </div>
+        </div>
+             </div>  
+
+
+</div>
 
 </body>
 <script>
@@ -128,9 +195,23 @@
     }
     else{
         document.getElementsByClassName('main-img')[0].src="mobile-img.png";
-        document.getElementsByClassName('main-img')[1].src="mobile-img.png";
+        document.getElementsByClassName('main-img')[1].src="mobile-img.png";}
 
     }
-    }
+    
+function showhide(){
+    var x = document.getElementById("showhide");
+    if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+
+
+}
+
+    
+
+    
 </script>
 </html>
