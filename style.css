@@ -193,6 +193,9 @@ body {
   .rectangle .action .tickets, .rectangle .action .right, .rectangle .action .right-two {
     font-size: 18px;
   }
+  .rectangle .action .tickets {
+    display: flex;
+  }
   .rectangle .action .twelve {
     font-size: 16px;
   }

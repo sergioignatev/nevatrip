@@ -142,12 +142,14 @@ body{display:block;}
 line-height: 34px;
 }
 .tickets,.right,.right-two{font-size: 18px;}
+.tickets{display: flex;}
 .twelve{font-size: 16px;}
 }
 .left{
     
     p{font-size: 14px;}}
 }
+
 
 }
 @media(max-width:1100px){
